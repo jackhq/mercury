@@ -1,6 +1,6 @@
 = Mercury
 
-Mercury is a gem that create a small web application that makes it very easy for you to generate wireframes in your favorite editor.  Basically you create a "views" folder and start building your haml, html, css files in any kind of structure you would like.   Then run rackup in the root folder and you are running a wireframe server on port 9292.
+Mercury is a gem that create a small web application that makes it very easy for you to generate wireframes in your favorite editor.  Basically you create a "views" folder and start building your haml files in any kind of structure you would like.   Then run rackup in the root folder and you are running a wireframe server on port 9292.
 
 == Install
 
@@ -68,6 +68,42 @@ Mercury is a gem that create a small web application that makes it very easy for
           - unless f =~ /index/ or f =~ /layout/
             %li
               %a{:href => f.gsub(/views/,'').match(/(.*).haml$/)[1]}= f.match(/\/(.*).haml$/)[1]
+    
+    
+    # then create a wire frame
+    
+    touch test.haml
+    
+    %h1 Family History
+    %br
+    %input{:type => 'checkbox'} Unable to assess;
+    reason
+    %input{:type => 'text', :style => 'width:240px;'}
+    %hr
+    %table
+      %tr
+        %td{:style => 'vertical-align:top;'} Psyschiatric
+        %td 
+          %textarea{:style => 'height:40px; width:490px'}
+      %tr
+        %td{:style => 'vertical-align:top;'} 
+          Medical
+        %td 
+          %textarea{:style => 'height:40px; width:490px'}
+    
+    # cd back to the root directory
+    
+    cd ..
+    
+    # run rackup
+    
+    rackup
+    
+    # now navigate to localhost:9292
+    
+    And you should see you index page with a link to your test.haml form
+    
+    You can create more haml documents, and you can create subfolders and organize your wireframes however you want, and you never have to write a line of code, other than haml.
     
 == Note on Patches/Pull Requests
  
