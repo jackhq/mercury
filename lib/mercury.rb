@@ -7,17 +7,18 @@ class Mercury < Sinatra::Default
 
   get '/*' do
     unless params["splat"][0].empty?
-      haml params["splat"][0].to_sym
+      haml params["splat"][0].to_sym, :layout => @layout
     else
-      haml :index
+      haml @index, :layout => @layout
     end
   end
 
 end
 
+
 __END__
 
-  @@ layout
+@@layout
 !!!
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", 'xml:lang' => "en" }
   %head
@@ -42,14 +43,18 @@ __END__
 
     - ['jquery-1.4.2.min'].each do |js|
       %script{:src => "/javascripts/#{js}.js", :type => 'text/javascript'}
+  
+  
 
-@@ index
+@@index
 .grid_16
   %p Welcome
 
   %ul
-    - Dir.glob('views/**/*.haml').each do |f|
-      - unless f =~ /index/ or f =~ /layout/
-        %li
-          %a{:href => f.gsub(/views/,'').match(/(.*).haml$/)[1]}= f.match(/\/(.*).haml$/)[1]
+  - Dir.glob('views/**/*.haml').each do |f|
+    - unless f =~ /index/ or f =~ /layout/
+      %li
+        %a{:href => f.gsub(/views/,'').match(/(.*).haml$/)[1]}= f.match(/\/(.*).haml$/)[1]
+  
+
 
