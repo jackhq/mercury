@@ -1,6 +1,6 @@
-= mercury
+= Mercury
 
-Description goes here.
+Mercury is a gem that create a small web application that makes it very easy for you to generate wireframes in your favorite editor.  Basically you create a "views" folder and start building your haml, html, css files in any kind of structure you would like.   Then run rackup in the root folder and you are running a wireframe server on port 9292.
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +14,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Tom & Russell. See LICENSE for details.
+Copyright (c) 2010 Jack Russell Software Company. See LICENSE for details.

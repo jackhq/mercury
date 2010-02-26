@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "mercury"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Simple Wire Frame Tool}
+    gem.description = %Q{Mercury allows you to create directory and start writting haml, html, css, etc to build wireframes for your user design.}
     gem.email = "thing2@jackhq.com"
     gem.homepage = "http://github.com/jackhq/mercury"
-    gem.authors = ["Tom & Russell"]
-    gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.authors = ["Tom Wilson"]
+    gem.add_dependency "sinatra", ">= 0.9.4"
+    gem.add_dependency "haml", ">= 2.2.20"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

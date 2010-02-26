@@ -1,0 +1,35 @@
+#header{
+  background: #4C4C4C;
+  color:#E6E6E6;
+}
+
+#wrap{
+  margin-bottom:20px;
+}
+#footer{
+  margin-top:20px;
+
+  color:#4C4C4C;
+}
+
+input.text, input.title, textarea, select {margin:0.5em 0;border:1px solid #bbb;}
+input.text:focus, input.title:focus, textarea:focus, select:focus {border:1px solid #666;}
+input.text, input.title {width:300px;padding:5px;}
+input.title {font-size:1em;}
+select {font-size:1em;}
+
+table.show {
+	width:100%;
+	border:2px solid #d5d0d2;
+}
+
+.show th {
+	background: #4C4C4C;
+	color: #E1E1E1;
+}
+.show td, .show th {
+	margin:10px;
+	padding:10px;
+	border:2px solid #d5d0d2;
+
+}
