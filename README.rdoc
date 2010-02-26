@@ -32,6 +32,8 @@ Mercury is a gem that create a small web application that makes it very easy for
     cd views
     
     touch layout.haml
+
+===
     
     !!!
     %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => "en", 'xml:lang' => "en" }
@@ -57,8 +59,12 @@ Mercury is a gem that create a small web application that makes it very easy for
 
         - ['jquery-1.4.2.min'].each do |js|
           %script{:src => "/javascripts/#{js}.js", :type => 'text/javascript'}
+
+===
     
     touch index.haml
+
+===
     
     .grid_16
       %p Welcome
@@ -69,10 +75,13 @@ Mercury is a gem that create a small web application that makes it very easy for
             %li
               %a{:href => f.gsub(/views/,'').match(/(.*).haml$/)[1]}= f.match(/\/(.*).haml$/)[1]
     
+===
     
     # then create a wire frame
     
     touch test.haml
+
+===
     
     %h1 Family History
     %br
@@ -90,6 +99,8 @@ Mercury is a gem that create a small web application that makes it very easy for
           Medical
         %td 
           %textarea{:style => 'height:40px; width:490px'}
+
+===
     
     # cd back to the root directory
     
