@@ -31,6 +31,8 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/app.css",
      "lib/public/stylesheets/reset.css",
      "lib/public/stylesheets/text.css",
+     "lib/views/index.haml",
+     "lib/views/layout.haml",
      "spec/mercury_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
