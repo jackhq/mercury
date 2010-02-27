@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.4.3"
+  s.version = "0.5.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
@@ -30,9 +30,24 @@ Gem::Specification.new do |s|
      "lib/mercury.rb",
      "lib/public/favicon.ico",
      "lib/public/javascripts/jquery-1.4.2.min.js",
+     "lib/public/javascripts/jquery-ui-1.8rc2.custom.min.js",
      "lib/public/stylesheets/960.css",
      "lib/public/stylesheets/app.css",
      "lib/public/stylesheets/reset.css",
+     "lib/public/stylesheets/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png",
+     "lib/public/stylesheets/smoothness/images/ui-bg_flat_75_ffffff_40x100.png",
+     "lib/public/stylesheets/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png",
+     "lib/public/stylesheets/smoothness/images/ui-bg_glass_65_ffffff_1x400.png",
+     "lib/public/stylesheets/smoothness/images/ui-bg_glass_75_dadada_1x400.png",
+     "lib/public/stylesheets/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png",
+     "lib/public/stylesheets/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png",
+     "lib/public/stylesheets/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png",
+     "lib/public/stylesheets/smoothness/images/ui-icons_222222_256x240.png",
+     "lib/public/stylesheets/smoothness/images/ui-icons_2e83ff_256x240.png",
+     "lib/public/stylesheets/smoothness/images/ui-icons_454545_256x240.png",
+     "lib/public/stylesheets/smoothness/images/ui-icons_888888_256x240.png",
+     "lib/public/stylesheets/smoothness/images/ui-icons_cd0a0a_256x240.png",
+     "lib/public/stylesheets/smoothness/jquery-ui-1.8rc2.custom.css",
      "lib/public/stylesheets/text.css",
      "lib/views/index.haml",
      "lib/views/layout.haml",

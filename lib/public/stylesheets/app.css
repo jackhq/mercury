@@ -33,3 +33,16 @@ table.show {
 	border:2px solid #d5d0d2;
 
 }
+
+a {
+	color:#150029;
+	font-size:1.2em;
+	text-decoration:none;
+	padding:5px;
+	background-color:#E6E6E6;
+}
+
+a:hover {
+	background-color:#150029;
+	color:#fff;
+}
