@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'fileutils'
+
+version = ">= 0"
+
+if ARGV.first
+  # Build Directory and add setup files
+  FileUtils.mkdir_p 'views'
+  File.open('config.ru','w').write("require 'mercury'\nrun Mercury\n")
+  
+else
+  # try to run in current directory
+  gem 'rack', version
+  load Gem.bin_path('rack', 'rackup', version)  
+end

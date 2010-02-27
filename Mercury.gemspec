@@ -5,13 +5,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.2.4"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
   s.date = %q{2010-02-26}
+  s.default_executable = %q{mercury}
   s.description = %q{Mercury allows you to create directory and start writting haml, html, css, etc to build wireframes for your user design.}
   s.email = %q{thing2@jackhq.com}
+  s.executables = ["mercury"]
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
