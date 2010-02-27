@@ -34,7 +34,7 @@ table.show {
 
 }
 
-a {
+#wrap a {
 	color:#150029;
 	font-size:1.2em;
 	text-decoration:none;
@@ -42,7 +42,7 @@ a {
 	background-color:#E6E6E6;
 }
 
-a:hover {
+#wrap a:hover {
 	background-color:#150029;
 	color:#fff;
 }
