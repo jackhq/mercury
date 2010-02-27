@@ -1,8 +1,9 @@
 require 'sinatra'
 require 'haml'
+require 'fileutils'
 
 class Mercury < Sinatra::Default
-  set :root,  %x["pwd"].gsub("\n",'')
+  set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, File.dirname(__FILE__) + '/public'
 
   get '/*' do
