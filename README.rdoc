@@ -11,21 +11,7 @@ Mercury is a gem that create a small web application that makes it very easy for
 
     # Create a new folder for your project
     
-    mkdir my_wireframes
-    
-    # Create a new file called "config.ru"
-    
-    cd my_wireframes
-    touch config.ru
-    
-    # open this file in a text editor and add the following code
-    
-    require 'mercury'
-    run Mercury
-    
-    # Create a folder called views
-    
-    mkdir views
+    mercury [project]
     
     # Create your erb or haml files
     
@@ -35,7 +21,7 @@ Mercury is a gem that create a small web application that makes it very easy for
 
 ===
     
-    # then create a wire frame
+    # then create a wire frame form
     
     touch test.haml
 
@@ -58,15 +44,15 @@ Mercury is a gem that create a small web application that makes it very easy for
         %td 
           %textarea{:style => 'height:40px; width:490px'}
 
-===
+===Run Server
     
     # cd back to the root directory
     
     cd ..
     
-    # run rackup
+    # run 
     
-    rackup
+    mercury
     
     # now navigate to localhost:9292
     

@@ -7,8 +7,9 @@ version = ">= 0"
 
 if ARGV.first
   # Build Directory and add setup files
-  FileUtils.mkdir_p 'views'
-  File.open('config.ru','w').write("require 'mercury'\nrun Mercury\n")
+  FileUtils.mkdir_p ARGV.first
+  FileUtils.mkdir_p ARGV.first + '/views'
+  File.open(ARGV.first + '/config.ru','w').write("require 'mercury'\nrun Mercury\n")
   
 else
   # try to run in current directory

@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.3.0"
+  s.version = "0.4.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "bin/mercury",
      "lib/mercury.rb",
      "lib/public/favicon.ico",
      "lib/public/javascripts/jquery-1.4.2.min.js",
