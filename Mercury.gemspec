@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/mercury.rb",
-     "lib/public/images/sixhour.png",
+     "lib/public/favicon.ico",
      "lib/public/javascripts/jquery-1.4.2.min.js",
      "lib/public/stylesheets/960.css",
      "lib/public/stylesheets/app.css",
