@@ -1,6 +1,15 @@
 = Mercury
 
-Mercury is a gem that create a small web application that makes it very easy for you to generate wireframes in your favorite editor.  Basically you create a "views" folder and start building your haml files in any kind of structure you would like.   Then run rackup in the root folder and you are running a wireframe server on port 9292.
+Mercury is a command line application that makes it dirt simple to create
+html forms(wireframes) using the following technology:
+
+* haml
+* jquery
+* jquery-ui
+
+== Why
+
+Using textmate, haml, and jquery to create slick ui designs is a great and fluid process, but the hassel of creating a rails, sinatra or other web framework app to present them was a waste of time.  So with mercury you use the haml, jquery, jquery-ui, with just a simple command.  You don't have to know ruby, all you have to do is to run "mercury [myproject]", open the views folder and start creating .haml files.
 
 == Install
 
