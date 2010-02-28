@@ -2,7 +2,7 @@ require 'sinatra'
 require 'haml'
 require 'fileutils'
 
-class Mercury < Sinatra::Default
+class Mercury < Sinatra::Application
   set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, File.dirname(__FILE__) + '/public'
 

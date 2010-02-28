@@ -1,7 +1,20 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
-describe "Mercury" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+describe "mercury index" do
+  include Rack::Test::Methods
+
+  def app
+    Mercury
   end
+  
+  it "should be true" do
+    get '/'
+    last_response.should be_true
+  end
+  
+  it "should contain mercury" do
+    get '/'
+    last_response.body.should =~ /Mercury/
+  end
+  
 end
