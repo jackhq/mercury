@@ -6,6 +6,7 @@ class Mercury < Sinatra::Application
   set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, File.dirname(__FILE__) + '/public'
 
+
   get '/*' do
     unless params["splat"][0].empty?
       haml params["splat"][0].to_sym, :layout => open(File.dirname(__FILE__) + '/views/layout.haml','r').read
