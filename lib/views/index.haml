@@ -1,6 +1,9 @@
 :erb
   <style type="text/css">
 :sass
+  #header
+    background: transparent url(/images/bk_gradient.png) repeat-x
+    
   ul#pages
     list-style: none
     li
@@ -24,12 +27,15 @@
     });
     
   })
+#header
+  %h1 Mercury
+  
 #wrap.grid_16
-  %h2 Wireframe Mockups
+  %h2 Mercury Projects
   %ul#pages
-    - Dir.glob('views/**/*.haml').each do |f|
+    - Dir.glob('views/*/').each do |f|
       - unless f =~ /index/ or f =~ /layout/
-        %li{:'data-href' => f.gsub(/views/,'').match(/(.*).haml$/)[1]}= f.match(/\/(.*).haml$/)[1]
+        %li{:'data-href' => f.gsub(/views/,'').match(/(.*)default.haml$/)[1]}= f.match(/\/(.*)\/$/)[1]
   
 
 
