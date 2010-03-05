@@ -9,8 +9,9 @@ class Mercury < Sinatra::Application
   set :public, File.dirname(__FILE__) + '/public'
 
   get '/*' do
-    layout_template = open(File.dirname(__FILE__) + '/views/layout.haml','r').read
-    view_file = params["splat"][0].empty? ? params["splat"][0].to_sym : open(File.dirname(__FILE__) + '/views/index.haml','r').read
+    vd = File.join(File.dirname(__FILE__),'views')
+    layout_template = open(File.join(vd,'layout.haml'),'r').read
+    view_file = params["splat"][0].empty? ? open(File.join(vd,'index.haml'),'r').read : params["splat"][0].to_sym
     haml view_file, :layout => layout_template
   end
 
@@ -28,7 +29,7 @@ class Mercury < Sinatra::Application
   
 private  
   def find_file(filename, ext)
-    Dir.glob(File.join(options.view, "**/*.#{ext}")).select { |f| f =~ /#{filename}.#{ext}$/ }.first
+    Dir.glob(File.join(options.views, "**/*.#{ext}")).select { |f| f =~ /#{filename}.#{ext}$/ }.first
   end
   
   
