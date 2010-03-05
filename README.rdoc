@@ -8,6 +8,8 @@ html forms(wireframes) using the following technology:
 * jquery
 * jquery-ui
 
+* BluePrint
+
 == Why
 
 Using textmate, haml, sass, and jquery to create slick ui designs is a great and fluid process.  
@@ -86,7 +88,7 @@ So with mercury you use the haml, jquery, jquery-ui, with just a simple command.
     
     # now in your haml file simply 
     
-    = sass '/test.sass'
+    = sass :test
     
 ===Using Javascript
 
@@ -100,7 +102,7 @@ So with mercury you use the haml, jquery, jquery-ui, with just a simple command.
     
     # now in your haml file simply
     
-    = javascript '/test.js'
+    = javascript :test
     
     
     

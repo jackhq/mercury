@@ -17,7 +17,7 @@ class Mercury < Sinatra::Application
   def sass(sassfile)
     ["<style type='text/css'>",
       Sass::Engine.new(open(find_file(sassfile, '.sass'), 'r').read).render, 
-      "</style>\n".join("\n")
+      "</style>\n"].join("\n")
   end
   
   def javascript(jsfile)

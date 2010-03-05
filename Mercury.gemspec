@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.6.0"
+  s.version = "0.6.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-03-04}
+  s.date = %q{2010-03-05}
   s.default_executable = %q{mercury}
   s.description = %q{Mercury allows you to create directory and start writting haml, html, css, etc to build wireframes for your user design.}
   s.email = %q{thing2@jackhq.com}
@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
      "lib/mercury.rb",
      "lib/public/favicon.ico",
      "lib/public/javascripts/jquery-1.4.2.min.js",
+     "lib/public/javascripts/jquery-ui-1.8rc3.custom.min.js",
      "lib/public/stylesheets/960.css",
      "lib/public/stylesheets/app.css",
      "lib/public/stylesheets/reset.css",
@@ -46,6 +47,7 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/smoothness/images/ui-icons_454545_256x240.png",
      "lib/public/stylesheets/smoothness/images/ui-icons_888888_256x240.png",
      "lib/public/stylesheets/smoothness/images/ui-icons_cd0a0a_256x240.png",
+     "lib/public/stylesheets/smoothness/jquery-ui-1.8rc3.custom.css",
      "lib/public/stylesheets/text.css",
      "lib/views/index.haml",
      "lib/views/layout.haml",
@@ -56,7 +58,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/jackhq/mercury}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{Simple Wire Frame Tool}
   s.test_files = [
     "spec/mercury_spec.rb",

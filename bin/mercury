@@ -12,6 +12,8 @@ if ARGV.first
   File.open(ARGV.first + '/config.ru','w').write("require 'mercury'\nrun Mercury\n")
   
 else
+  puts "Running Mercury on port:9292"
+  puts "Press Ctrl-C to exit"
   # try to run in current directory
   gem 'rack', version
   load Gem.bin_path('rack', 'rackup', version)  
