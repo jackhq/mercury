@@ -35,7 +35,7 @@
   %ul#pages
     - Dir.glob('views/*/').each do |f|
       - unless f =~ /index/ or f =~ /layout/
-        %li{:'data-href' => f.gsub(/views/,'').match(/(.*)default.haml$/)[1]}= f.match(/\/(.*)\/$/)[1]
+        %li{:'data-href' => f.gsub(/views/,'').match(/(.*)$/)[1] + 'default'}= f.match(/\/(.*)\/$/)[1]
   
 
 
