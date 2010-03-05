@@ -4,7 +4,11 @@
   #header-wrap
     background: transparent url(/images/bk_gradient.png) repeat-x
     color: white
-    
+  
+  #header
+    h1
+      margin-left: 15px
+      
   ul#pages
     list-style: none
     li
@@ -29,11 +33,11 @@
     
   })
 #header-wrap  
-  #header
+  #header.container_16
     %h1 Mercury
   
-#wrap.grid_16
-  %h2 Mercury Projects
+#wrap.container_16
+  %h2 Projects
   %ul#pages
     - Dir.glob('views/*/').each do |f|
       - unless f =~ /index/ or f =~ /layout/
