@@ -1,7 +1,8 @@
 = Mercury
 
-Mercury is a command line application that makes it dirt simple to create
-html forms(wireframes) using the following technology:
+Mercury is a prototype builder:
+
+=== Technology
 
 * haml
 * sass
@@ -29,7 +30,7 @@ So with mercury you use the haml, jquery, jquery-ui, with just a simple command.
     
     mercury [project]
     
-    # Create your erb or haml files
+    # Create your haml files
     
     cd views
     
