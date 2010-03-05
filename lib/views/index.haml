@@ -25,7 +25,7 @@
       $(this).css('background-image','url(/images/bk_gradient.png)');
     });
     $('#pages').children().mouseout(function(){
-      $(this).css('background-color','transparent');
+      $(this).css('background-image','none');
     });
     $('#pages').children().click(function(){
       window.location = $(this).attr('data-href');
