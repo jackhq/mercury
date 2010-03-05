@@ -4,12 +4,17 @@ Mercury is a command line application that makes it dirt simple to create
 html forms(wireframes) using the following technology:
 
 * haml
+* sass
 * jquery
 * jquery-ui
 
 == Why
 
-Using textmate, haml, and jquery to create slick ui designs is a great and fluid process, but the hassel of creating a rails, sinatra or other web framework app to present them was a waste of time.  So with mercury you use the haml, jquery, jquery-ui, with just a simple command.  You don't have to know ruby, all you have to do is to run "mercury [myproject]", open the views folder and start creating .haml files.
+Using textmate, haml, sass, and jquery to create slick ui designs is a great and fluid process.  
+
+Mercury makes it easy to use these technologies with out have to create a web framework server, it removes that from the picture.
+
+So with mercury you use the haml, jquery, jquery-ui, with just a simple command.  You don't have to know ruby, all you have to do is to run "mercury [myproject]", open the views folder and start creating .haml files.
 
 == Install
 
@@ -68,6 +73,37 @@ Using textmate, haml, and jquery to create slick ui designs is a great and fluid
     And you should see you index page with a link to your test.haml form
     
     You can create more haml documents, and you can create subfolders and organize your wireframes however you want, and you never have to write a line of code, other than haml.
+
+===Using Sass
+
+    # Create your sass file
+    
+    !x = blue
+    .profile
+      color = !x
+      
+    # save test.sass
+    
+    # now in your haml file simply 
+    
+    = sass '/test.sass'
+    
+===Using Javascript
+
+    # Create you js file
+    
+    $(function() {
+      alert('this rocks!');
+    })
+    
+    # save test.js
+    
+    # now in your haml file simply
+    
+    = javascript '/test.js'
+    
+    
+    
     
 == Note on Patches/Pull Requests
  

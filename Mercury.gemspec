@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.5.4"
+  s.version = "0.6.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-03-02}
+  s.date = %q{2010-03-04}
   s.default_executable = %q{mercury}
   s.description = %q{Mercury allows you to create directory and start writting haml, html, css, etc to build wireframes for your user design.}
   s.email = %q{thing2@jackhq.com}
@@ -30,7 +30,6 @@ Gem::Specification.new do |s|
      "lib/mercury.rb",
      "lib/public/favicon.ico",
      "lib/public/javascripts/jquery-1.4.2.min.js",
-     "lib/public/javascripts/jquery-ui-1.8rc2.custom.min.js",
      "lib/public/stylesheets/960.css",
      "lib/public/stylesheets/app.css",
      "lib/public/stylesheets/reset.css",
@@ -47,7 +46,6 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/smoothness/images/ui-icons_454545_256x240.png",
      "lib/public/stylesheets/smoothness/images/ui-icons_888888_256x240.png",
      "lib/public/stylesheets/smoothness/images/ui-icons_cd0a0a_256x240.png",
-     "lib/public/stylesheets/smoothness/jquery-ui-1.8rc2.custom.css",
      "lib/public/stylesheets/text.css",
      "lib/views/index.haml",
      "lib/views/layout.haml",
@@ -72,13 +70,16 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<sinatra>, [">= 0.9.4"])
       s.add_runtime_dependency(%q<haml>, [">= 2.2.20"])
+      s.add_runtime_dependency(%q<faker>, [">= 0"])
     else
       s.add_dependency(%q<sinatra>, [">= 0.9.4"])
       s.add_dependency(%q<haml>, [">= 2.2.20"])
+      s.add_dependency(%q<faker>, [">= 0"])
     end
   else
     s.add_dependency(%q<sinatra>, [">= 0.9.4"])
     s.add_dependency(%q<haml>, [">= 2.2.20"])
+    s.add_dependency(%q<faker>, [">= 0"])
   end
 end
 

@@ -1,14 +1,5 @@
-#header{
-  background: #4C4C4C;
-  color:#E6E6E6;
-}
-
-#wrap{
-  margin-bottom:20px;
-}
-#footer{
+#tool-footer{
   margin-top:20px;
-
   color:#4C4C4C;
 }
 
@@ -32,17 +23,4 @@ table.show {
 	padding:10px;
 	border:2px solid #d5d0d2;
 
-}
-
-#wrap a {
-	color:#150029;
-	font-size:1.2em;
-	text-decoration:none;
-	padding:5px;
-	background-color:#E6E6E6;
-}
-
-#wrap a:hover {
-	background-color:#150029;
-	color:#fff;
 }
