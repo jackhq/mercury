@@ -5,6 +5,9 @@
     - ['reset','text','960','smoothness/jquery-ui-1.8rc2.custom', 'app'].each do |css|
       %link{ :href => "/stylesheets/#{css}.css", :rel => "stylesheet", :type => "text/css", :media => "screen", :charset => "utf-8" }
   %body
+    - ['jquery-1.4.2.min', 'jquery-ui-1.8rc2.custom.min'].each do |js|
+      %script{:src => "/javascripts/#{js}.js", :type => 'text/javascript'}
+
     #header
       .container_12
         %small{:style => 'font-style:italic;float:right;'} WireFrame Tool
@@ -20,5 +23,3 @@
         .grid_4.prefix_8
           %p Jack Russell Software Company, LLC
 
-    - ['jquery-1.4.2.min', 'jquery-ui-1.8rc2.custom.min'].each do |js|
-      %script{:src => "/javascripts/#{js}.js", :type => 'text/javascript'}
