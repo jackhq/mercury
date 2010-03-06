@@ -13,13 +13,8 @@ class Mercury < Sinatra::Application
   set :public, File.dirname(__FILE__) + '/public'
 
   get '/*' do
-    vf = params["splat"][0]
-    vd = File.join(File.dirname(__FILE__),'views')
-    layout_template = open(File.join(vd,'layout.haml'),'r').read
-
-    view_file = vf.empty? ? open(File.join(vd,'index.haml'),'r').read : vf.to_sym
-
-    haml view_file, :layout => layout_template
+    view_file_request = params["splat"][0]
+    haml view_file_request.empty? ? view_file = get_view('index.haml') : view_file_request.to_sym, :layout => get_view('layout.haml')
   end
 
   def sass(sassfile)
@@ -38,5 +33,11 @@ private
   def find_file(filename, ext)
     Dir.glob(File.join(options.views, "**/*.#{ext}")).select { |extfile| extfile =~ /#{filename}.#{ext}$/ }.first
   end
+    
+  def get_view(filename)
+    view_directory = File.join(File.dirname(__FILE__),'views')
+    open(File.join(view_directory,filename),'r').read
+  end
   
+    
 end
