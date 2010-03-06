@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.7.3"
+  s.version = "0.7.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-03-05}
+  s.date = %q{2010-03-06}
   s.default_executable = %q{mercury}
-  s.description = %q{Mercury allows you to create directory and start writting haml, html, css, etc to build wireframes for your user design.}
+  s.description = %q{Mercury allows you to create web sites/apps/mockups using haml, sass, and jquery.}
   s.email = %q{thing2@jackhq.com}
   s.executables = ["mercury"]
   s.extra_rdoc_files = [
@@ -61,7 +61,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{Simple Wire Frame Tool}
+  s.summary = %q{Build Web Sites/Apps/Wireframes Haml, Sass, JQuery Web}
   s.test_files = [
     "spec/mercury_spec.rb",
      "spec/spec_helper.rb"
