@@ -4,6 +4,7 @@ require 'sass'
 require 'fileutils'
 require 'faker'
 
+# Core Sinatra application to run mercury apps
 class Mercury < Sinatra::Application
   SASS = 'sass'
   JS = 'js'
