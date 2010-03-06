@@ -35,7 +35,7 @@ class Mercury < Sinatra::Application
   
 private  
   def find_file(filename, ext)
-    Dir.glob(File.join(options.views, "**/*.#{ext}")).select { |f| f =~ /#{filename}.#{ext}$/ }.first
+    Dir.glob(File.join(options.views, "**/*.#{ext}")).select { |extfile| extfile =~ /#{filename}.#{ext}$/ }.first
   end
   
 end
