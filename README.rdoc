@@ -13,24 +13,36 @@ Mercury is a prototype builder:
 
 == Why
 
-Using textmate, haml, sass, and jquery to create slick ui designs is a great and fluid process.  
+We love using haml, sass and jquery in complex applications, but wanted a simple way to utilize these tools for web sites, simple or nosql applications, and wireframes.  Mercury gives us the power to create quick projects without having to setup a rails or sinatra app or write any code to get started.
 
-Mercury makes it easy to use these technologies with out have to create a web framework server, it removes that from the picture.
+Simply type: 
+ 
+   mercury {your project name}
 
-So with mercury you use the haml, jquery, jquery-ui, with just a simple command.  You don't have to know ruby, all you have to do is to run "mercury [myproject]", open the views folder and start creating .haml files.
+And you are ready to start writing haml, sass, and jquery.  No configuration or setup, just start creating.
+
+To run a mercury app:
+
+    cd into your project folder and type:
+    
+    mercury
+    
+Keeping it this simple allows users that are not super familiar with ruby technologies to use haml and sass. 
 
 == Install
 
-    sudo gem install mercury
+    gem install mercury
 
 
 == Create a mercury project
 
     # Create a new folder for your project
     
-    mercury [project]
+    mercury {project}
     
     # Create your haml files
+    
+    cd {project}
     
     cd views
     
@@ -38,29 +50,20 @@ So with mercury you use the haml, jquery, jquery-ui, with just a simple command.
 
 ===
     
-    # then create a wire frame form
+    # then create a haml page
     
     touch test.haml
 
 ===
-    
-    %h1 Test Form
-    %br
-    %input{:type => 'checkbox'} Unable to assess;
-    reason
-    %input{:type => 'text', :style => 'width:240px;'}
-    %hr
-    %table
-      %tr
-        %td{:style => 'vertical-align:top;'} Psychiatric
-        %td 
-          %textarea{:style => 'height:40px; width:490px'}
-      %tr
-        %td{:style => 'vertical-align:top;'} 
-          Medical
-        %td 
-          %textarea{:style => 'height:40px; width:490px'}
+    #header
+      %h1 Widget
+      
+    %h1 Welcome to Mercury
 
+    %p
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit sapien, ultricies id pulvinar euismod, pharetra accumsan nisl. Phasellus at ante neque, ut gravida massa. Mauris dapibus dolor nec nibh pellentesque cursus. Nullam quis mauris sed augue tempus cursus at vel purus. Cras suscipit augue eget leo tincidunt tempus. Curabitur imperdiet risus et diam vestibulum dictum. Sed id erat quis tellus consectetur tristique sit amet ut orci. Phasellus malesuada dui sit amet tortor tincidunt quis molestie justo elementum. In hac habitasse platea dictumst. Suspendisse pharetra facilisis dolor ut tincidunt. Donec rhoncus viverra sem, eu lobortis eros facilisis eu. Nam fringilla vehicula diam gravida consectetur. Donec tincidunt, diam sed pharetra accumsan, urna quam malesuada nibh, id malesuada mauris est vel mauris. Proin lacus magna, facilisis vel pulvinar sed, suscipit malesuada metus. Nam semper mattis pharetra. Quisque et mattis eros.
+    
+  
 ===Run Server
     
     # cd back to the root directory
@@ -75,7 +78,7 @@ So with mercury you use the haml, jquery, jquery-ui, with just a simple command.
     
     And you should see you index page with a link to your test.haml form
     
-    You can create more haml documents, and you can create subfolders and organize your wireframes however you want, and you never have to write a line of code, other than haml.
+    You can create more haml documents, and you can create subfolders and organize your pages however you want, and you never have to write a line of code, other than haml.
 
 ===Using Sass
 

@@ -52,6 +52,7 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/text.css",
      "lib/views/index.haml",
      "lib/views/layout.haml",
+     "mercury-0.7.2.gem",
      "spec/mercury_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
@@ -59,7 +60,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/jackhq/mercury}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.6}
+  s.rubygems_version = %q{1.3.5}
   s.summary = %q{Simple Wire Frame Tool}
   s.test_files = [
     "spec/mercury_spec.rb",
