@@ -16,3 +16,1536 @@
 	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.7.5/bin/mercury:19
 	from /usr/local/bin/mercury:19:in `load'
 	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET / HTTP/1.1" 200 2435 0.0365
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET / HTTP/1.1" 200 2435 0.0547
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/reset.css HTTP/1.1" 200 648 0.0018
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/reset.css HTTP/1.1" 200 648 0.0047
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/text.css HTTP/1.1" 200 418 0.0032
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/text.css HTTP/1.1" 200 418 0.0085
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/960.css HTTP/1.1" 200 5310 0.0012
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/960.css HTTP/1.1" 200 5310 0.0055
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/app.css HTTP/1.1" 200 581 0.0018
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/app.css HTTP/1.1" 200 581 0.0050
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 200 30766 0.0013
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 200 30766 0.0080
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 200 72174 0.0030
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 200 72174 0.0061
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 200 213511 0.0012
+127.0.0.1 - - [06/Mar/2010 12:31:51] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 200 213511 0.0037
+127.0.0.1 - - [06/Mar/2010 12:31:52] "GET /images/bk_gradient.png HTTP/1.1" 200 3443 0.0013
+127.0.0.1 - - [06/Mar/2010 12:31:52] "GET /images/bk_gradient.png HTTP/1.1" 200 3443 0.0038
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /default HTTP/1.1" 200 1683 0.0211
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /default HTTP/1.1" 200 1683 0.0244
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0043
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0047
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0604
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:31:59] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET / HTTP/1.1" 200 2435 0.0334
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET / HTTP/1.1" 200 2435 0.0360
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0102
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0114
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0066
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /images/bk_gradient.png HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:36:10] "GET /images/bk_gradient.png HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:36:17] "GET /default HTTP/1.1" 200 1959 0.0230
+127.0.0.1 - - [06/Mar/2010 12:36:17] "GET /default HTTP/1.1" 200 1959 0.0263
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /default HTTP/1.1" 200 2169 0.0300
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /default HTTP/1.1" 200 2169 0.0328
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0018
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /favicon.ico HTTP/1.1" 200 3494 0.0019
+127.0.0.1 - - [06/Mar/2010 12:45:34] "GET /favicon.ico HTTP/1.1" 200 3494 0.0049
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /default HTTP/1.1" 200 2169 0.0291
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /default HTTP/1.1" 200 2169 0.0324
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0053
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0022
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0048
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0048
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:46:52] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /default HTTP/1.1" 200 2169 0.0281
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /default HTTP/1.1" 200 2169 0.1025
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0061
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:46:54] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /default HTTP/1.1" 200 2169 0.0295
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /default HTTP/1.1" 200 2169 0.0324
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0055
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0018
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0053
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /favicon.ico HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 12:47:30] "GET /favicon.ico HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /default HTTP/1.1" 200 2419 0.0408
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /default HTTP/1.1" 200 2419 0.0438
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0073
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0047
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0043
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0041
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0049
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:48:03] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /default HTTP/1.1" 200 2474 0.0339
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /default HTTP/1.1" 200 2474 0.0373
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0698
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0721
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:48:32] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:48:48] "GET /default HTTP/1.1" 200 2475 0.0344
+127.0.0.1 - - [06/Mar/2010 12:48:48] "GET /default HTTP/1.1" 200 2475 0.0373
+127.0.0.1 - - [06/Mar/2010 12:48:48] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:48:48] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 12:48:48] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:48:48] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 12:48:48] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:48:48] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:48:49] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:48:49] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 12:48:49] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:48:49] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 12:48:49] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:48:49] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 12:48:49] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:48:49] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /default HTTP/1.1" 200 2498 0.0376
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /default HTTP/1.1" 200 2498 0.0405
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /favicon.ico HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:22] "GET /favicon.ico HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /default HTTP/1.1" 200 2563 0.0341
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /default HTTP/1.1" 200 2563 0.0364
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0048
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0051
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0061
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0075
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:35] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /default HTTP/1.1" 200 2567 0.1037
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /default HTTP/1.1" 200 2567 0.1067
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0046
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 12:49:56] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /default HTTP/1.1" 200 2639 0.0361
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /default HTTP/1.1" 200 2639 0.0389
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0071
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:50:20] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /default HTTP/1.1" 200 2665 0.0374
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /default HTTP/1.1" 200 2665 0.0400
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0019
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:50:32] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0031
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /about HTTP/1.1" 200 3014 0.0360
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /about HTTP/1.1" 200 3014 0.0538
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0056
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0047
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0017
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:56:53] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /about HTTP/1.1" 200 3021 0.0387
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /about HTTP/1.1" 200 3021 0.0416
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0045
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0060
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0043
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0046
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /favicon.ico HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:57:30] "GET /favicon.ico HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /about HTTP/1.1" 200 3058 0.0367
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /about HTTP/1.1" 200 3058 0.0401
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0023
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0055
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0051
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0067
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0043
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0069
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:58:13] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 12:59:29] "GET /about HTTP/1.1" 200 3127 0.0378
+127.0.0.1 - - [06/Mar/2010 12:59:29] "GET /about HTTP/1.1" 200 3127 0.0409
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0016
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0062
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0051
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 12:59:30] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0041
+127.0.0.1 - - [06/Mar/2010 12:59:31] "GET /about HTTP/1.1" 200 3127 0.0397
+127.0.0.1 - - [06/Mar/2010 12:59:31] "GET /about HTTP/1.1" 200 3127 0.0431
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /home HTTP/1.1" 200 2831 0.0394
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /home HTTP/1.1" 200 2831 0.0422
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0041
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0058
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0053
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0097
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:02:57] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /home HTTP/1.1" 200 2779 0.0399
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /home HTTP/1.1" 200 2779 0.0431
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0054
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /favicon.ico HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 13:03:34] "GET /favicon.ico HTTP/1.1" 304 - 0.0048
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /home HTTP/1.1" 200 2845 0.0434
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /home HTTP/1.1" 200 2845 0.0462
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0050
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0742
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0052
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:03:50] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /home HTTP/1.1" 200 2847 0.0413
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /home HTTP/1.1" 200 2847 0.0445
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0028
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:00] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /home HTTP/1.1" 200 2876 0.0403
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /home HTTP/1.1" 200 2876 0.0435
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0022
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0047
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:22] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /home HTTP/1.1" 200 2876 0.0404
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /home HTTP/1.1" 200 2876 0.0430
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:04:24] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /home HTTP/1.1" 200 2979 0.0414
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /home HTTP/1.1" 200 2979 0.1108
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0046
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:05:28] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:05:36] "GET /about HTTP/1.1" 200 3341 0.0430
+127.0.0.1 - - [06/Mar/2010 13:05:36] "GET /about HTTP/1.1" 200 3341 0.0462
+127.0.0.1 - - [06/Mar/2010 13:05:38] "GET /home HTTP/1.1" 200 2979 0.0434
+127.0.0.1 - - [06/Mar/2010 13:05:38] "GET /home HTTP/1.1" 200 2979 0.0466
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /home HTTP/1.1" 200 3031 0.0423
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /home HTTP/1.1" 200 3031 0.0450
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0021
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0055
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0056
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0045
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:06:42] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /home HTTP/1.1" 200 3114 0.0436
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /home HTTP/1.1" 200 3114 0.0463
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0064
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0051
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:07:45] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0731
+127.0.0.1 - - [06/Mar/2010 13:07:46] "GET /favicon.ico HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 13:07:46] "GET /favicon.ico HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /home HTTP/1.1" 200 3114 0.0439
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /home HTTP/1.1" 200 3114 0.0468
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0051
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:03] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /home HTTP/1.1" 200 3123 0.0443
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /home HTTP/1.1" 200 3123 0.0472
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0052
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0046
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:21] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /home HTTP/1.1" 200 3123 0.0463
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /home HTTP/1.1" 200 3123 0.0496
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0066
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:08:29] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0031
+Haml::SyntaxError - Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.:
+ /Users/twilson63/play/mercury/docs/views/home.haml:12
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19Haml::SyntaxError: Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+	/Users/twilson63/play/mercury/docs/views/home.haml:12
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:169:in `tabs'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:151:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:151:in `tabs'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:1007:in `block_opened?'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:758:in `render_tag'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:232:in `process_line'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:196:in `precompile'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/engine.rb:114:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:323:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:323:in `render_haml'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:265:in `__send__'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:265:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 13:10:00] "GET /home HTTP/1.1" 500 171356 0.3641
+127.0.0.1 - - [06/Mar/2010 13:10:00] "GET /home HTTP/1.1" 500 171356 0.3667
+127.0.0.1 - - [06/Mar/2010 13:10:00] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 13:10:00] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0066
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /home HTTP/1.1" 200 3175 0.0446
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /home HTTP/1.1" 200 3175 0.0472
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0041
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0028
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0073
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0105
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0023
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0049
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:10:06] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /home HTTP/1.1" 200 3177 0.0450
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /home HTTP/1.1" 200 3177 0.0479
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0020
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0019
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0048
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:10:56] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /home HTTP/1.1" 200 3245 0.0447
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /home HTTP/1.1" 200 3245 0.0480
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.1179
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0043
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /favicon.ico HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 13:11:36] "GET /favicon.ico HTTP/1.1" 304 - 0.0046
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /home HTTP/1.1" 200 3266 0.0462
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /home HTTP/1.1" 200 3266 0.0490
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0046
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0043
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:11:46] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /home HTTP/1.1" 200 3401 0.0480
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /home HTTP/1.1" 200 3401 0.0514
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0031
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0018
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0047
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:14:46] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /home HTTP/1.1" 200 3518 0.0508
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /home HTTP/1.1" 200 3518 0.0534
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0041
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0029
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0017
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:16:17] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0714
+127.0.0.1 - - [06/Mar/2010 13:16:18] "GET /favicon.ico HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 13:16:18] "GET /favicon.ico HTTP/1.1" 304 - 0.0041
+Haml::SyntaxError - Illegal nesting: nesting within plain text is illegal.:
+ /Users/twilson63/play/mercury/docs/views/home.haml:31
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19Haml::SyntaxError: Illegal nesting: nesting within plain text is illegal.
+	/Users/twilson63/play/mercury/docs/views/home.haml:31
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:362:in `push_plain'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:295:in `process_line'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/precompiler.rb:196:in `precompile'
+	/usr/local/lib/ruby/gems/1.8/gems/haml-2.2.20/lib/haml/engine.rb:114:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:323:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:323:in `render_haml'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:265:in `__send__'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:265:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 13:16:32] "GET /home HTTP/1.1" 500 160485 0.2780
+127.0.0.1 - - [06/Mar/2010 13:16:32] "GET /home HTTP/1.1" 500 160485 0.2814
+127.0.0.1 - - [06/Mar/2010 13:16:32] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [06/Mar/2010 13:16:32] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /home HTTP/1.1" 200 3518 0.0516
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /home HTTP/1.1" 200 3518 0.0546
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0054
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0079
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0057
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0049
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:16:40] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /home HTTP/1.1" 200 3631 0.0439
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /home HTTP/1.1" 200 3631 0.0467
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0053
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0017
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0054
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0015
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0072
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0067
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /favicon.ico HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:21:26] "GET /favicon.ico HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /home HTTP/1.1" 200 3631 0.0439
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /home HTTP/1.1" 200 3631 0.0468
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0045
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0041
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.1224
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0020
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0048
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 13:22:28] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 20:37:59] "GET /home HTTP/1.1" 200 3485 0.2249
+127.0.0.1 - - [06/Mar/2010 20:37:59] "GET /home HTTP/1.1" 200 3485 0.2439
+127.0.0.1 - - [06/Mar/2010 20:37:59] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 20:37:59] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 20:37:59] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0778
+127.0.0.1 - - [06/Mar/2010 20:37:59] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0807
+127.0.0.1 - - [06/Mar/2010 20:37:59] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 20:37:59] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0098
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0048
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /favicon.ico HTTP/1.1" 304 - 0.1143
+127.0.0.1 - - [06/Mar/2010 20:38:00] "GET /favicon.ico HTTP/1.1" 304 - 0.1166
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /home HTTP/1.1" 200 3565 0.0455
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /home HTTP/1.1" 200 3565 0.0484
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0061
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0125
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0059
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.1145
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0056
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0105
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 20:38:22] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0662
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /home HTTP/1.1" 200 3631 0.0452
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /home HTTP/1.1" 200 3631 0.0489
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0206
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0327
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0380
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 20:39:06] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /home HTTP/1.1" 200 3702 0.0456
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /home HTTP/1.1" 200 3702 0.2104
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0098
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0022
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0047
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0024
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0078
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0028
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0056
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 20:40:15] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0035
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:27:39] "GET /home HTTP/1.1" 200 3720 0.0748
+127.0.0.1 - - [06/Mar/2010 21:27:39] "GET /home HTTP/1.1" 200 108 0.1607
+127.0.0.1 - - [06/Mar/2010 21:27:39] "GET /favicon.ico HTTP/1.1" 304 - 0.0010
+Rack::Lint::LintError: Content-Length header found in 304 response, not allowed
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:18:in `assert'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:489:in `check_content_length'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/utils.rb:278:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/utils.rb:277:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:485:in `check_content_length'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:54:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:27:39] "GET /favicon.ico HTTP/1.1" 500 80002 0.2302
+127.0.0.1 - - [06/Mar/2010 21:27:46] "GET /home HTTP/1.1" 200 3720 0.0450
+127.0.0.1 - - [06/Mar/2010 21:27:46] "GET /home HTTP/1.1" 200 108 0.0491
+127.0.0.1 - - [06/Mar/2010 21:27:46] "GET /favicon.ico HTTP/1.1" 200 3494 0.0012
+127.0.0.1 - - [06/Mar/2010 21:27:46] "GET /favicon.ico HTTP/1.1" 200 108 0.0048
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:28:34] "GET /home HTTP/1.1" 200 3720 0.0464
+127.0.0.1 - - [06/Mar/2010 21:28:34] "GET /home HTTP/1.1" 200 3720 0.0668
+127.0.0.1 - - [06/Mar/2010 21:28:34] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 21:28:34] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 21:28:34] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 21:28:34] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 21:28:35] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0035
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:29:56] "GET /home HTTP/1.1" 200 108 0.0524
+127.0.0.1 - - [06/Mar/2010 21:29:56] "GET /home HTTP/1.1" 200 108 0.1526
+127.0.0.1 - - [06/Mar/2010 21:30:12] "GET /home HTTP/1.1" 200 108 0.0487
+127.0.0.1 - - [06/Mar/2010 21:30:12] "GET /home HTTP/1.1" 200 108 0.0517
+127.0.0.1 - - [06/Mar/2010 21:32:06] "GET /about HTTP/1.1" 200 108 0.2293
+127.0.0.1 - - [06/Mar/2010 21:32:06] "GET /about HTTP/1.1" 200 108 0.2320
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /about HTTP/1.1" 200 3553 0.0441
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /about HTTP/1.1" 200 3553 0.0625
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0035
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0046
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0058
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 21:32:17] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [06/Mar/2010 21:32:26] "GET /home HTTP/1.1" 200 3702 0.0453
+127.0.0.1 - - [06/Mar/2010 21:32:26] "GET /home HTTP/1.1" 200 3702 0.0501
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/tutorial.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/tutorial.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:32:32] "GET /tutorial HTTP/1.1" 500 145747 0.2576
+127.0.0.1 - - [06/Mar/2010 21:32:32] "GET /tutorial HTTP/1.1" 500 145747 0.2607
+127.0.0.1 - - [06/Mar/2010 21:32:36] "GET /home HTTP/1.1" 200 3702 0.0453
+127.0.0.1 - - [06/Mar/2010 21:32:36] "GET /home HTTP/1.1" 200 3702 0.0479
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /home HTTP/1.1" 200 4699 0.0452
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /home HTTP/1.1" 200 4699 0.0631
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0044
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0081
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 21:55:11] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0041
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /home HTTP/1.1" 200 4810 0.0458
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /home HTTP/1.1" 200 4810 0.0639
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/reset.css HTTP/1.1" 200 648 0.0013
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/reset.css HTTP/1.1" 200 648 0.0085
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/text.css HTTP/1.1" 200 418 0.0015
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/text.css HTTP/1.1" 200 418 0.0043
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/960.css HTTP/1.1" 200 5310 0.0031
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/960.css HTTP/1.1" 200 5310 0.0061
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 200 30766 0.0014
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 200 30766 0.0041
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/app.css HTTP/1.1" 200 581 0.0012
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/app.css HTTP/1.1" 200 581 0.0037
+Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 200 72174 0.0013
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 200 72174 0.0043
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 200 213511 0.0013
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 200 213511 0.0046
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3572
+127.0.0.1 - - [06/Mar/2010 21:56:26] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3602
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:56:36] "GET /stylesheets/highlight.css HTTP/1.1" 500 145866 0.3172
+127.0.0.1 - - [06/Mar/2010 21:56:36] "GET /stylesheets/highlight.css HTTP/1.1" 500 145866 0.3197
+127.0.0.1 - - [06/Mar/2010 21:56:55] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 21:56:55] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0046
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:57:02] "GET /stylesheets/highlight.css HTTP/1.1" 500 145866 0.3136
+127.0.0.1 - - [06/Mar/2010 21:57:02] "GET /stylesheets/highlight.css HTTP/1.1" 500 145866 0.3173
+127.0.0.1 - - [06/Mar/2010 21:57:19] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 21:57:19] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0054
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:59:32] "GET /home HTTP/1.1" 200 4810 0.1430
+127.0.0.1 - - [06/Mar/2010 21:59:32] "GET /home HTTP/1.1" 200 4810 0.1903
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/reset.css HTTP/1.1" 200 648 0.0042
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/text.css HTTP/1.1" 200 418 0.0023
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/text.css HTTP/1.1" 200 418 0.0075
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/reset.css HTTP/1.1" 200 648 0.0287
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/960.css HTTP/1.1" 200 5310 0.0023
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/960.css HTTP/1.1" 200 5310 0.0111
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 200 30766 0.0030
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 200 30766 0.0318
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/app.css HTTP/1.1" 200 581 0.0025
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /stylesheets/app.css HTTP/1.1" 200 581 0.0246
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 200 72174 0.0138
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 200 72174 0.0433
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 200 213511 0.0199
+127.0.0.1 - - [06/Mar/2010 21:59:33] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 200 213511 0.0371
+Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:59:35] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 2.7066
+127.0.0.1 - - [06/Mar/2010 21:59:35] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 2.7544
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 21:59:51] "GET /stylesheets/highlight.css HTTP/1.1" 500 145866 0.8044
+127.0.0.1 - - [06/Mar/2010 21:59:51] "GET /stylesheets/highlight.css HTTP/1.1" 500 145866 0.8132
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
