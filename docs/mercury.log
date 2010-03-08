@@ -1549,3 +1549,465 @@ Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/v
 	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
 	from /usr/local/bin/mercury:19:in `load'
 	from /usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /home HTTP/1.1" 200 3813 0.0594
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /home HTTP/1.1" 200 3813 0.0832
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0058
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0090
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0104
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0023
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0053
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0041
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0062
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0137
+Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3813
+127.0.0.1 - - [06/Mar/2010 22:04:46] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3893
+127.0.0.1 - - [06/Mar/2010 22:04:47] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 22:04:47] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0062
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /home HTTP/1.1" 200 3822 0.0451
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /home HTTP/1.1" 200 3822 0.0482
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0039
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0030
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0040
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0033
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0070
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0096
+Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3253
+127.0.0.1 - - [06/Mar/2010 22:05:48] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3285
+127.0.0.1 - - [06/Mar/2010 22:05:49] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [06/Mar/2010 22:05:49] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0043
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /home HTTP/1.1" 200 3822 0.0466
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /home HTTP/1.1" 200 3822 0.0502
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0036
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0062
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0016
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0053
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0071
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0099
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0033
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [06/Mar/2010 22:08:22] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0066
+Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [06/Mar/2010 22:08:23] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3236
+127.0.0.1 - - [06/Mar/2010 22:08:23] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3262
+127.0.0.1 - - [06/Mar/2010 22:08:23] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0012
+127.0.0.1 - - [06/Mar/2010 22:08:23] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0037
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /home HTTP/1.1" 200 3564 0.0427
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /home HTTP/1.1" 200 3564 0.0456
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0038
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0262
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0284
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0014
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0041
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0047
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0077
+Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3813
+127.0.0.1 - - [07/Mar/2010 07:08:39] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.3842
+127.0.0.1 - - [07/Mar/2010 07:08:40] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0013
+127.0.0.1 - - [07/Mar/2010 07:08:40] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0042
+127.0.0.1 - - [07/Mar/2010 07:08:40] "GET /favicon.ico HTTP/1.1" 200 3494 0.0012
+127.0.0.1 - - [07/Mar/2010 07:08:40] "GET /favicon.ico HTTP/1.1" 200 3494 0.0052
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /home HTTP/1.1" 200 3574 0.0420
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /home HTTP/1.1" 200 3574 0.0451
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/reset.css HTTP/1.1" 304 - 0.0055
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0010
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/text.css HTTP/1.1" 304 - 0.0034
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/960.css HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/smoothness/jquery-ui-1.8rc3.custom.css HTTP/1.1" 304 - 0.0032
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0011
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/app.css HTTP/1.1" 304 - 0.0067
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0018
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /javascripts/jquery-1.4.2.min.js HTTP/1.1" 304 - 0.0048
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.2797
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /stylesheets/highlight.css HTTP/1.1" 500 145926 0.2890
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [07/Mar/2010 07:18:41] "GET /javascripts/jquery-ui-1.8rc3.custom.min.js HTTP/1.1" 304 - 0.0033
+127.0.0.1 - - [07/Mar/2010 07:18:43] "GET /resources HTTP/1.1" 200 3461 0.0434
+127.0.0.1 - - [07/Mar/2010 07:18:43] "GET /resources HTTP/1.1" 200 3461 0.0470
+Errno::ENOENT - No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml:
+ /usr/local/bin/mercury:19:in `load'
+ /usr/local/bin/mercury:19Errno::ENOENT: No such file or directory - /Users/twilson63/play/mercury/docs/views/stylesheets/highlight.css.haml
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `read'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:285:in `lookup_template'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:264:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:131:in `render'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:234:in `haml'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/lib/mercury.rb:26:in `GET /*'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:779:in `route'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:474:in `route_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:463:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:460:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:439:in `route!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:555:in `dispatch!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `instance_eval'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `catch'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:522:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/compat.rb:138:in `invoke'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:375:in `call!'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:364:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:943:in `synchronize'
+	/usr/local/lib/ruby/gems/1.8/gems/sinatra-0.9.4/lib/sinatra/base.rb:898:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:47:in `_call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lint.rb:35:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/commonlogger.rb:18:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+	/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	/usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	/usr/local/bin/mercury:19:in `load'
+	/usr/local/bin/mercury:19
+127.0.0.1 - - [07/Mar/2010 07:18:43] "GET /stylesheets/highlight.css HTTP/1.1" 500 145799 0.1989
+127.0.0.1 - - [07/Mar/2010 07:18:43] "GET /stylesheets/highlight.css HTTP/1.1" 500 145799 0.2020
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `join': Interrupt
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:155:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/server.rb:83:in `start'
+	from /usr/local/lib/ruby/gems/1.8/gems/rack-1.1.0/bin/rackup:4
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19:in `load'
+	from /usr/local/lib/ruby/gems/1.8/gems/mercury-0.8.1/bin/mercury:19
+	from /usr/local/bin/mercury:19:in `load'
+	from /usr/local/bin/mercury:19
