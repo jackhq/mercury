@@ -23,19 +23,19 @@ class Mercury < Sinatra::Application
   
   
   get '/*.gif' do
-    stream_image(params["splat"][0],"image/gif")    
+    stream_image([params["splat"][0],'gif'].join('.'),"image/gif")    
   end
 
   get '/*.png' do
-    stream_image(params["splat"][0],"image/png")
+    stream_image([params["splat"][0],'png'].join('.'),"image/png")
   end
 
   get '/*.jpg' do
-    stream_image(params["splat"][0],"image/jpg")
+    stream_image([params["splat"][0],'jpg'].join('.'),"image/jpg")
   end
 
   get '/*.jpeg' do
-    stream_image(params["splat"][0],"image/jpeg")
+    stream_image([params["splat"][0],'jpeg'].join('.'),"image/jpeg")
   end
   
   get '/*' do
