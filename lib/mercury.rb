@@ -21,31 +21,25 @@ class Mercury < Sinatra::Application
   set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, File.dirname(__FILE__) + '/public'
   
-  before do
-    @view_file_request = params["splat"][0]  
-  end
   
   get '/*.gif' do
-    content_type "image/gif"
-    stream_image(@view_file_request)
+    stream_image(params["splat"][0],"image/gif")    
   end
 
   get '/*.png' do
-    content_type "image/png"
-    stream_image(@view_file_request)
+    stream_image(params["splat"][0],"image/png")
   end
 
   get '/*.jpg' do
-    content_type "image/jpg"
-    stream_image(@view_file_request)
+    stream_image(params["splat"][0],"image/jpg")
   end
 
   get '/*.jpeg' do
-    content_type "image/jpeg"
-    stream_image(@view_file_request)
+    stream_image(params["splat"][0],"image/jpeg")
   end
   
   get '/*' do
+    view_file_request = params["splat"][0]  
     haml view_file_request.empty? ? view_file = get_view('index.haml') : view_file_request.to_sym, :layout => get_view('layout.haml')
   end
 
@@ -80,9 +74,16 @@ private
     open_file File.join(view_directory,filename) 
   end
   
-  def stream_image(filename)
-    open(File.join(options.views, filename), 'rb').read
+  def get_image(filename)
+    open(File.join(options.views, filename), 'rb').read    
   end
+    
+  def stream_image(filename, content_type)
+    content_type "image/png"    
+    get_image(filename)
+  end
+  
+  
   
   
     
