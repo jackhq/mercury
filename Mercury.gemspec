@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.8.1"
+  s.version = "0.8.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-03-06}
+  s.date = %q{2010-03-10}
   s.default_executable = %q{mercury}
   s.description = %q{Mercury allows you to create web sites/apps/mockups using haml, sass, and jquery.}
   s.email = %q{thing2@jackhq.com}
@@ -29,6 +29,16 @@ Gem::Specification.new do |s|
      "bin/mercury",
      "docs/config.ru",
      "docs/mercury.log",
+     "docs/views/about.haml",
+     "docs/views/about.md",
+     "docs/views/default.sass",
+     "docs/views/footer.haml",
+     "docs/views/header.haml",
+     "docs/views/home.haml",
+     "docs/views/home.md",
+     "docs/views/navigation.haml",
+     "docs/views/resources.haml",
+     "docs/views/resources.md",
      "lib/mercury.rb",
      "lib/public/favicon.ico",
      "lib/public/images/bk_gradient.png",

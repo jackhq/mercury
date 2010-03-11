@@ -37,11 +37,17 @@
     %h1 Mercury
   
 #wrap.container_16
-  %h2 Projects
-  %ul#pages
-    - Dir.glob('views/*/').each do |f|
-      - unless f =~ /index/ or f =~ /layout/
-        %li{:'data-href' => f.gsub(/views/,'').match(/(.*)$/)[1] + 'default'}= f.match(/\/(.*)\/$/)[1]
+  .grid_9.prefix_3
+    %p{:style => 'font-size:1.4em'}
+      Welcome to Mercury, a simple and easy to use gem that makes it super easy to create web-sites, mockups and micro-webapps.  You don't have to write any ruby or know anything about web frameworks or anything complicated.  This gem is not to replace any of the excellent ruby frameworks out there.  It is simply a gem to quickly mockup some web sites, web mockups, or a mini prototype apps.
+    
+    %p{:style => 'font-size:1.4em'}
+      The original purpose was to create a simple way to quickly create wireframes, using haml and sass.  After tweaking the gem we added a bunch of other little features.  You can replace this page, by creating an index.haml file in your views directory.  We will work on providing more documentation soon.  
+    
+    %p{:style => 'font-size:1.4em'}
+      Please send us a tweet and let us know what you think about the project!  
+    :markdown
+      [@jackhq](http://twitter.com/jackhq)
   
 
 

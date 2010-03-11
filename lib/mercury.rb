@@ -53,8 +53,12 @@ private
   end
     
   def get_view(filename)
-    view_directory = File.join(File.dirname(__FILE__),'views')
-    open_file File.join(view_directory,filename) 
+    if File.exists?(File.join(options.views, filename))
+      open_file File.join(options.views,filename) 
+    else
+      view_directory = File.join(File.dirname(__FILE__),'views')
+      open_file File.join(view_directory,filename) 
+    end
   end
   
     
