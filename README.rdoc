@@ -8,8 +8,8 @@ Mercury is a prototype builder:
 * sass
 * jquery
 * jquery-ui
-
-* BluePrint
+* 960.gs
+* /gif|png|jpg|jpeg/ Image Support
 
 == Why
 

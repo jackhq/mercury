@@ -5,11 +5,19 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
+<<<<<<< HEAD:Mercury.gemspec
   s.version = "0.8.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
   s.date = %q{2010-03-10}
+=======
+  s.version = "0.8.3"
+
+  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.authors = ["Tom Wilson"]
+  s.date = %q{2010-03-08}
+>>>>>>> 57de96a40f42a99187d7a2e3774d29bffa91672e:Mercury.gemspec
   s.default_executable = %q{mercury}
   s.description = %q{Mercury allows you to create web sites/apps/mockups using haml, sass, and jquery.}
   s.email = %q{thing2@jackhq.com}
@@ -64,7 +72,6 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/text.css",
      "lib/views/index.haml",
      "lib/views/layout.haml",
-     "mercury-0.7.2.gem",
      "spec/mercury_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
@@ -72,7 +79,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/jackhq/mercury}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{Build Web Sites/Apps/Wireframes Haml, Sass, JQuery Web}
   s.test_files = [
     "spec/mercury_spec.rb",
