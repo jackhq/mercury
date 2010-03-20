@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.8.2"
+  s.version = "0.9.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-03-10}
+  s.date = %q{2010-03-20}
   s.default_executable = %q{mercury}
   s.description = %q{Mercury allows you to create web sites/apps/mockups using haml, sass, and jquery.}
   s.email = %q{thing2@jackhq.com}
@@ -42,11 +42,13 @@ Gem::Specification.new do |s|
      "lib/mercury.rb",
      "lib/public/favicon.ico",
      "lib/public/images/bk_gradient.png",
+     "lib/public/javascripts/coffee-script.js",
      "lib/public/javascripts/jquery-1.4.2.min.js",
      "lib/public/javascripts/jquery-ui-1.8rc3.custom.min.js",
      "lib/public/stylesheets/960.css",
      "lib/public/stylesheets/app.css",
      "lib/public/stylesheets/reset.css",
+     "lib/public/stylesheets/sass/grid.sass",
      "lib/public/stylesheets/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png",
      "lib/public/stylesheets/smoothness/images/ui-bg_flat_75_ffffff_40x100.png",
      "lib/public/stylesheets/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png",
