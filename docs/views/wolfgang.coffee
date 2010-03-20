@@ -1,2 +1,4 @@
-$ ->
-  alert 'Hello From Coffee Script'
+$('document').ready ->
+  $('#navigation li a').button()
+      
+    
