@@ -17,7 +17,8 @@ class Mercury < Sinatra::Application
   SASS = 'sass'
   JS = 'js'
   MARKDOWN = 'md'
-  
+  COFFEE = 'coffee'
+    
   set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, File.dirname(__FILE__) + '/public'
   
@@ -59,6 +60,11 @@ class Mercury < Sinatra::Application
     Markdown.new(open_file(find_file(mdfile, MARKDOWN))).to_html
   end
   
+  def coffee(coffeefile)
+    ["<script type='text/coffeescript'>",
+      open_file(find_file(coffeefile, COFFEE)),
+      "</script>\n"].join("\n")
+  end
   
 private  
   def find_file(filename, ext)
