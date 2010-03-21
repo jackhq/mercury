@@ -32,6 +32,8 @@ Gem::Specification.new do |s|
      "docs/views/about.haml",
      "docs/views/about.md",
      "docs/views/default.sass",
+     "docs/views/example.haml",
+     "docs/views/example.md",
      "docs/views/footer.haml",
      "docs/views/header.haml",
      "docs/views/home.md",
