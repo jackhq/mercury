@@ -8,13 +8,19 @@ version = ">= 0"
 if ARGV.first
   # Build Directory and add setup files
   FileUtils.mkdir_p ARGV.first
-  FileUtils.mkdir_p File.join(ARGV.first, 'views')
+  FileUtils.mkdir_p File.join(ARGV.first, 'wwwroot')
   FileUtils.mkdir_p File.join(ARGV.first, 'tmp')
   config_ru = ["require 'mercury'","log = File.new('tmp/mercury.log', 'a+')", "$stdout.reopen(log)", "$stderr.reopen(log)", "run Mercury"].join("\n")
   File.open(File.join(ARGV.first, 'config.ru'),'w').write(config_ru)
   gemfile = ['source :gemcutter', "gem 'thin'", "gem 'mercury'"].join("\n")
   File.open(File.join(ARGV.first, 'Gemfile'),'w').write(gemfile)
-  
+  puts "***********************************"
+  puts "* Thank you for choosing Mercury! *"
+  puts "***********************************"
+  puts "* cd #{ARGV.first}/wwwroot        *"
+  puts "* and start creating......        *"
+  puts "* have fun....                    *"
+  puts "***********************************"
 else
   puts "Running Mercury on port:9292"
   puts "Press Ctrl-C to exit"

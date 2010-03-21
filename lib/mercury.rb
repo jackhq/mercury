@@ -23,6 +23,7 @@ class Mercury < Sinatra::Application
     
   set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, File.dirname(__FILE__) + '/public'
+  set :views, FileUtils.pwd.gsub("\n",'') + '/wwwroot'
   
   
   get '/*.gif' do
