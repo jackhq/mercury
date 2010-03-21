@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "mercury"
-    gem.summary = %Q{Build Web Sites/Apps/Wireframes Haml, Sass, JQuery Web }
-    gem.description = %Q{Mercury allows you to create web sites/apps/mockups using haml, sass, and jquery.}
+    gem.summary = %Q{Easy Hacking with Haml, Sass, JQuery, CoffeeScript}
+    gem.description = %Q{Hack with haml, sass, jquery and coffee-script!}
     gem.email = "thing2@jackhq.com"
     gem.homepage = "http://github.com/jackhq/mercury"
     gem.authors = ["Tom Wilson"]
@@ -14,6 +14,7 @@ begin
     gem.add_dependency "haml", ">= 2.2.20"
     gem.add_dependency "faker", ">= 0"
     gem.add_dependency "bluecloth", ">= 0"
+    gem.add_dependency "RedCloth", ">= 4.2.3"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

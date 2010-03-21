@@ -3,6 +3,7 @@ require 'haml'
 require 'sass'
 require 'fileutils'
 require 'faker'
+require 'redcloth'
 
 begin
   require 'rdiscount'
@@ -17,6 +18,7 @@ class Mercury < Sinatra::Application
   SASS = 'sass'
   JS = 'js'
   MARKDOWN = 'md'
+  TEXTILE = 'textile'
   COFFEE = 'coffee'
     
   set :root,  FileUtils.pwd.gsub("\n",'')
@@ -60,6 +62,10 @@ class Mercury < Sinatra::Application
     Markdown.new(open_file(find_file(mdfile, MARKDOWN))).to_html
   end
   
+  def textile(txfile)
+    RedCloth.new(open_file(find_file(txfile, TEXTILE))).to_html
+  end
+  
   def coffee(coffeefile)
     ["<script type='text/coffeescript'>",
       open_file(find_file(coffeefile, COFFEE)),
@@ -88,8 +94,8 @@ private
     open(File.join(options.views, filename), 'rb').read    
   end
     
-  def stream_image(filename, content_type)
-    content_type "image/png"    
+  def stream_image(filename, ct)
+    content_type(ct)    
     get_image(filename)
   end
   
