@@ -17,10 +17,15 @@ if ARGV.first
   puts "***********************************"
   puts "* Thank you for choosing Mercury! *"
   puts "***********************************"
-  puts "* cd #{ARGV.first}/wwwroot        *"
-  puts "* and start creating......        *"
-  puts "* have fun....                    *"
+  puts "* $ cd #{ARGV.first}/wwwroot       "
+  puts "* $ mercury         "  
   puts "***********************************"
+  puts "* have fun....                     "
+  puts "***********************************"
+  puts "* Go to http://mercury.jackhq.com  "
+  puts "* for more info "
+  puts "***********************************"
+
 else
   puts "Running Mercury on port:9292"
   puts "Press Ctrl-C to exit"

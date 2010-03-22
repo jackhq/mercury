@@ -1,6 +1,8 @@
 = Mercury
 
-Mercury is a prototype builder:
+=== What is it?
+
+It is a command line application that allows you to create and run web sites built using haml, sass, jquery, and coffee-script.  It also has support for markdown, textile, and 960 built right in.  Give it a try, it only takes 5 minutes to get up and running.  
 
 === Technology
 
@@ -8,12 +10,17 @@ Mercury is a prototype builder:
 * sass
 * jquery
 * jquery-ui
+* coffee-script
+* markdown
+* textile
 * 960.gs
 * /gif|png|jpg|jpeg/ Image Support
 
 == Why
 
-We love using haml, sass and jquery in complex applications, but wanted a simple way to utilize these tools for web sites, simple or nosql applications, and wireframes.  Mercury gives us the power to create quick projects without having to setup a rails or sinatra app or write any code to get started.
+At Jack Russell Software, we love haml, jquery, etc and needed to create web mockups or wireframes quickly to get user interface feedback during our storyboarding process.  Mercury was the answer, it allows us to work with the same tools we are familar with and focus on getting the user interface right.
+
+See for you self!  Try Mercury, you will be hooked!
 
 Simply type: 
  
@@ -27,7 +34,8 @@ To run a mercury app:
     
     mercury
     
-Keeping it this simple allows users that are not super familiar with ruby technologies to use haml and sass. 
+Keeping it this simple allows users to start building right away!
+ 
 
 == Install
 
@@ -44,7 +52,7 @@ Keeping it this simple allows users that are not super familiar with ruby techno
     
     cd {project}
     
-    cd views
+    cd wwwroot
     
     touch test.haml
 
@@ -78,7 +86,6 @@ Keeping it this simple allows users that are not super familiar with ruby techno
     
     And you should see you index page with a link to your test.haml form
     
-    You can create more haml documents, and you can create subfolders and organize your pages however you want, and you never have to write a line of code, other than haml.
 
 ===Using Sass
 
