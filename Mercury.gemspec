@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-03-21}
+  s.date = %q{2010-03-22}
   s.default_executable = %q{mercury}
   s.description = %q{Hack with haml, sass, jquery and coffee-script!}
   s.email = %q{thing2@jackhq.com}

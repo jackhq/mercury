@@ -79,7 +79,7 @@ private
   end
   
   def open_file(full_path_and_filename)
-    open(full_path_and_filename,'r').read  
+    open(full_path_and_filename,'r') { |file| file.read }  
   end
     
   def get_view(filename)
@@ -92,7 +92,7 @@ private
   end
   
   def get_image(filename)
-    open(File.join(options.views, filename), 'rb').read    
+    open(File.join(options.views, filename), 'rb') { |file| file.read }    
   end
     
   def stream_image(filename, ct)
