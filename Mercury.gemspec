@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-03-23}
+  s.date = %q{2010-03-24}
   s.default_executable = %q{mercury}
   s.description = %q{Hack with haml, sass, jquery and coffee-script!}
   s.email = %q{thing2@jackhq.com}
@@ -55,7 +55,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Easy Hacking with Haml, Sass, JQuery, CoffeeScript}
   s.test_files = [
-    "spec/mercury_spec.rb",
+    "spec/lib/mercury/images_spec.rb",
+     "spec/mercury_spec.rb",
      "spec/spec_helper.rb"
   ]
 

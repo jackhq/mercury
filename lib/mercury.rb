@@ -8,7 +8,7 @@ require File.dirname(__FILE__) + '/mercury/images'
 # Core Sinatra application to run mercury apps
 class Mercury < Sinatra::Application
   helpers Sinatra::Helpers
-  helpers Sinatra::Images
+  register Sinatra::Images
   
   set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, File.dirname(__FILE__) + '/public'
@@ -23,8 +23,9 @@ class Mercury < Sinatra::Application
 private  
     
   def get_view(filename)
-    if File.exists?(File.join(options.views, filename))
-      view_file = File.join(options.views,filename) 
+    full_file = File.join(options.views, filename)
+    if File.exists?(full_file)
+      view_file = full_file 
     else
       view_directory = File.join(File.dirname(__FILE__),'views')
       view_file = File.join(view_directory,filename)

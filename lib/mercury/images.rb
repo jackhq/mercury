@@ -1,33 +1,27 @@
 module Sinatra
   module Images
     def self.registered(app)
-      app.get '/*.gif' do
-        stream_image([params["splat"][0],'gif'].join('.'),"image/gif")    
-      end
-
-      app.get '/*.png' do
-        stream_image([params["splat"][0],'png'].join('.'),"image/png")
-      end
-
-      app.get '/*.jpg' do
-        stream_image([params["splat"][0],'jpg'].join('.'),"image/jpg")
-      end
-
-      app.get '/*.jpeg' do
-        stream_image([params["splat"][0],'jpeg'].join('.'),"image/jpeg")
+      # stream images
+      app.get %r{[gif|jpg|png|jpeg]$} do
+        content_type get_image_type(request.path_info)
+        File.open(options.views + request.path_info, 'rb') do |file| 
+          file.read
+        end 
       end
     end
     
-  private
-    def get_image(filename)
-      open(File.join(options.views, filename), 'rb') { |file| file.read }    
+    def get_image_type(image_name)
+      if image_name =~ /.gif/
+        "image/gif"
+      elsif image_name =~ /.jpg/
+        "image/jpg"
+      elsif image_name =~ /.png/
+        "image/png"
+      elsif image_name =~ /.jpeg/
+        "image/jpeg"
+      end
     end
-
-    def stream_image(filename, ct)
-      content_type(ct)    
-      get_image(filename)
-    end
-    
+        
   end
   register Images
 end
