@@ -5,7 +5,7 @@
     - ['reset','text','960','smoothness/jquery-ui-1.8rc3.custom','app'].each do |css|
       %link{ :href => "/stylesheets/#{css}.css", :rel => "stylesheet", :type => "text/css", :media => "screen", :charset => "utf-8" }
   %body
-    - ['jquery-1.4.2.min', 'jquery-ui-1.8rc3.custom.min', 'coffee-script'].each do |js|
+    - ['jquery-1.4.2.min', 'jquery-ui-1.8.custom.min', 'coffee-script'].each do |js|
       %script{:src => "/javascripts/#{js}.js", :type => 'text/javascript'}
 
     = yield

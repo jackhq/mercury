@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.9.2"
+  s.version = "0.9.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-03-22}
+  s.date = %q{2010-03-23}
   s.default_executable = %q{mercury}
   s.description = %q{Hack with haml, sass, jquery and coffee-script!}
   s.email = %q{thing2@jackhq.com}
@@ -19,36 +19,14 @@ Gem::Specification.new do |s|
      "README.rdoc"
   ]
   s.files = [
-    ".document",
-     ".gitignore",
-     "LICENSE",
-     "Mercury.gemspec",
-     "README.rdoc",
-     "Rakefile",
-     "VERSION",
-     "bin/mercury",
-     "docs/Gemfile",
-     "docs/config.ru",
-     "docs/mercury.log",
-     "docs/views/about.haml",
-     "docs/views/about.md",
-     "docs/views/default.sass",
-     "docs/views/example.haml",
-     "docs/views/example.md",
-     "docs/views/footer.haml",
-     "docs/views/header.haml",
-     "docs/views/home.md",
-     "docs/views/index.haml",
-     "docs/views/navigation.haml",
-     "docs/views/resources.haml",
-     "docs/views/resources.md",
-     "docs/views/wolfgang.coffee",
-     "lib/mercury.rb",
+    "lib/mercury.rb",
+     "lib/mercury/helpers.rb",
+     "lib/mercury/images.rb",
      "lib/public/favicon.ico",
      "lib/public/images/bk_gradient.png",
      "lib/public/javascripts/coffee-script.js",
      "lib/public/javascripts/jquery-1.4.2.min.js",
-     "lib/public/javascripts/jquery-ui-1.8rc3.custom.min.js",
+     "lib/public/javascripts/jquery-ui-1.8.custom.min.js",
      "lib/public/stylesheets/960.css",
      "lib/public/stylesheets/app.css",
      "lib/public/stylesheets/reset.css",
@@ -66,13 +44,10 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/smoothness/images/ui-icons_454545_256x240.png",
      "lib/public/stylesheets/smoothness/images/ui-icons_888888_256x240.png",
      "lib/public/stylesheets/smoothness/images/ui-icons_cd0a0a_256x240.png",
-     "lib/public/stylesheets/smoothness/jquery-ui-1.8rc3.custom.css",
+     "lib/public/stylesheets/smoothness/jquery-ui-1.8.custom.css",
      "lib/public/stylesheets/text.css",
      "lib/views/index.haml",
-     "lib/views/layout.haml",
-     "spec/mercury_spec.rb",
-     "spec/spec.opts",
-     "spec/spec_helper.rb"
+     "lib/views/layout.haml"
   ]
   s.homepage = %q{http://github.com/jackhq/mercury}
   s.rdoc_options = ["--charset=UTF-8"]
@@ -89,20 +64,20 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<sinatra>, [">= 0.9.4"])
+      s.add_runtime_dependency(%q<sinatra>, [">= 1.0.0"])
       s.add_runtime_dependency(%q<haml>, [">= 2.2.20"])
       s.add_runtime_dependency(%q<faker>, [">= 0"])
       s.add_runtime_dependency(%q<bluecloth>, [">= 0"])
       s.add_runtime_dependency(%q<RedCloth>, [">= 4.2.3"])
     else
-      s.add_dependency(%q<sinatra>, [">= 0.9.4"])
+      s.add_dependency(%q<sinatra>, [">= 1.0.0"])
       s.add_dependency(%q<haml>, [">= 2.2.20"])
       s.add_dependency(%q<faker>, [">= 0"])
       s.add_dependency(%q<bluecloth>, [">= 0"])
       s.add_dependency(%q<RedCloth>, [">= 4.2.3"])
     end
   else
-    s.add_dependency(%q<sinatra>, [">= 0.9.4"])
+    s.add_dependency(%q<sinatra>, [">= 1.0.0"])
     s.add_dependency(%q<haml>, [">= 2.2.20"])
     s.add_dependency(%q<faker>, [">= 0"])
     s.add_dependency(%q<bluecloth>, [">= 0"])
