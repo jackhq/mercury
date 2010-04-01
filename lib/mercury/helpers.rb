@@ -19,8 +19,9 @@ module Sinatra
     TEXTILE = 'textile'
     COFFEE = 'coffee'
 
-    def sass(sassfile)
-      ["<style type='text/css'>",
+    def sass(sassfile, mediatype)
+      if mediatype.nil? then mediatype = "all" end
+      ["<style type='text/css' media='#{mediatype}' >",
         Sass::Engine.new(open_file(find_file(sassfile, SASS))).render, 
         "</style>\n"].join("\n")
     end
