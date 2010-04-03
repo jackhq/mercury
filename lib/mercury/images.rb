@@ -1,5 +1,5 @@
 module Sinatra
-  module Images
+  module MercuryImages
     def self.registered(app)
       # stream images
       app.get %r{[gif|jpg|png|jpeg]$} do
@@ -23,5 +23,5 @@ module Sinatra
     end
         
   end
-  register Images
+  register MercuryImages
 end

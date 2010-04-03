@@ -17,7 +17,7 @@ if ARGV.first
   puts "***********************************"
   puts "* Thank you for choosing Mercury! *"
   puts "***********************************"
-  puts "* $ cd #{ARGV.first}/wwwroot       "
+  puts "* $ cd #{ARGV.first}               "
   puts "* $ mercury         "  
   puts "***********************************"
   puts "* have fun....                     "

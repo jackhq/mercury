@@ -7,8 +7,8 @@ require File.dirname(__FILE__) + '/mercury/images'
 
 # Core Sinatra application to run mercury apps
 class Mercury < Sinatra::Application
-  helpers Sinatra::Helpers
-  register Sinatra::Images
+  helpers Sinatra::MercuryHelpers
+  register Sinatra::MercuryImages
   
   set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, File.dirname(__FILE__) + '/public'
@@ -31,11 +31,5 @@ private
       view_file = File.join(view_directory,filename)
     end
     open(view_file,'r') { |file| file.read }
-  end
-  
-  
-  
-  
-  
-    
+  end  
 end
