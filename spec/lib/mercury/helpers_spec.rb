@@ -9,7 +9,7 @@ describe "helpers" do
   end
   
   it "should return js file" do
-    puts app.render_script("test", "javascript")
+    #puts app.render_script("test", "javascript")
     #app.css(:hello).should =~ /^<script(.*)<\/script>$/
   end
 
