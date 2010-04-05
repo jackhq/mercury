@@ -16,7 +16,7 @@ module Sinatra
     SASS = 'sass'
     JS = 'js'
     MDOWN = 'md'
-    TEXTILE = 'textile'
+    # TEXTILE = 'textile'
     COFFEE = 'coffee'
     CSS = 'css'
     SCSS = 'scss'
@@ -45,9 +45,9 @@ module Sinatra
       Markdown.new(open_file(find_file(mdfile, MDOWN))).to_html
     end
 
-    def textile(txfile)
-      RedCloth.new(open_file(find_file(txfile, TEXTILE))).to_html
-    end
+    # def textile(txfile)
+    #   RedCloth.new(open_file(find_file(txfile, TEXTILE))).to_html
+    # end
 
     def coffee(coffeefile)
       render_script open_file(find_file(coffeefile, COFFEE)), 'coffeescript'
