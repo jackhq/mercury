@@ -15,7 +15,7 @@ module Sinatra
 
     SASS = 'sass'
     JS = 'js'
-    MARKDOWN = 'md'
+    MDOWN = 'md'
     TEXTILE = 'textile'
     COFFEE = 'coffee'
     CSS = 'css'
@@ -42,7 +42,7 @@ module Sinatra
     end
 
     def markdown(mdfile)
-      Markdown.new(open_file(find_file(mdfile, MARKDOWN))).to_html
+      Markdown.new(open_file(find_file(mdfile, MDOWN))).to_html
     end
 
     def textile(txfile)
