@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.9.6"
+  s.version = "0.9.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
@@ -70,20 +70,17 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<haml>, [">= 3.0.0.beta.1"])
       s.add_runtime_dependency(%q<faker>, [">= 0"])
       s.add_runtime_dependency(%q<bluecloth>, [">= 0"])
-      s.add_runtime_dependency(%q<RedCloth>, [">= 4.2.2"])
     else
       s.add_dependency(%q<sinatra>, [">= 1.0.0"])
       s.add_dependency(%q<haml>, [">= 3.0.0.beta.1"])
       s.add_dependency(%q<faker>, [">= 0"])
       s.add_dependency(%q<bluecloth>, [">= 0"])
-      s.add_dependency(%q<RedCloth>, [">= 4.2.2"])
     end
   else
     s.add_dependency(%q<sinatra>, [">= 1.0.0"])
     s.add_dependency(%q<haml>, [">= 3.0.0.beta.1"])
     s.add_dependency(%q<faker>, [">= 0"])
     s.add_dependency(%q<bluecloth>, [">= 0"])
-    s.add_dependency(%q<RedCloth>, [">= 4.2.2"])
   end
 end
 
