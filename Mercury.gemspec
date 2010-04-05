@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-04-03}
+  s.date = %q{2010-04-05}
   s.default_executable = %q{mercury}
   s.description = %q{Hack with haml, sass, jquery and coffee-script!}
   s.email = %q{thing2@jackhq.com}
@@ -70,20 +70,20 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<haml>, [">= 3.0.0.beta.1"])
       s.add_runtime_dependency(%q<faker>, [">= 0"])
       s.add_runtime_dependency(%q<bluecloth>, [">= 0"])
-      s.add_runtime_dependency(%q<RedCloth>, [">= 4.2.3"])
+      s.add_runtime_dependency(%q<RedCloth>, [">= 4.2.2"])
     else
       s.add_dependency(%q<sinatra>, [">= 1.0.0"])
       s.add_dependency(%q<haml>, [">= 3.0.0.beta.1"])
       s.add_dependency(%q<faker>, [">= 0"])
       s.add_dependency(%q<bluecloth>, [">= 0"])
-      s.add_dependency(%q<RedCloth>, [">= 4.2.3"])
+      s.add_dependency(%q<RedCloth>, [">= 4.2.2"])
     end
   else
     s.add_dependency(%q<sinatra>, [">= 1.0.0"])
     s.add_dependency(%q<haml>, [">= 3.0.0.beta.1"])
     s.add_dependency(%q<faker>, [">= 0"])
     s.add_dependency(%q<bluecloth>, [">= 0"])
-    s.add_dependency(%q<RedCloth>, [">= 4.2.3"])
+    s.add_dependency(%q<RedCloth>, [">= 4.2.2"])
   end
 end
 
