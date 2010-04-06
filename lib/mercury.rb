@@ -4,11 +4,15 @@ require 'fileutils'
 require 'faker'
 require File.dirname(__FILE__) + '/mercury/helpers'
 require File.dirname(__FILE__) + '/mercury/images'
+require 'coffee_script'
+
 
 # Core Sinatra application to run mercury apps
 class Mercury < Sinatra::Application
   helpers Sinatra::MercuryHelpers
   register Sinatra::MercuryImages
+  
+  
   
   set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, File.dirname(__FILE__) + '/public'
