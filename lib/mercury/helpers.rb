@@ -18,6 +18,12 @@ module Sinatra
     COFFEE = 'coffee'
     CSS = 'css'
     SCSS = 'scss'
+    RUBY = 'rb'
+    
+    def ruby(rubyfile)
+      instance_eval(open_file(find_file(rubyfile, RUBY)))
+    end
+    
 
     def css(cssfile)
       render_script open_file(find_file(cssfile, CSS)), 'css'    

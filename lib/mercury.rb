@@ -5,10 +5,13 @@ require 'faker'
 require File.dirname(__FILE__) + '/mercury/helpers'
 require File.dirname(__FILE__) + '/mercury/images'
 require 'coffee_script'
+require 'sass/plugin/rack'
 
 
 # Core Sinatra application to run mercury apps
 class Mercury < Sinatra::Application
+  use Sass::Plugin::Rack
+
   helpers Sinatra::MercuryHelpers
   register Sinatra::MercuryImages
   
