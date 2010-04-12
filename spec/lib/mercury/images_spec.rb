@@ -11,7 +11,7 @@ describe "images" do
   it "should return gif" do
     File.stub!(:open).and_return('foobar')
     get "/hello.gif"
-    puts last_response.body.should == 'foobar'
+    last_response.body.should == 'foobar'
   end
   
   it "should return correct file content type for gif" do

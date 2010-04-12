@@ -25,21 +25,16 @@ module Sinatra
     end
     
 
-    def css(cssfile)
-      render_script open_file(find_file(cssfile, CSS)), 'css'    
+    def css(cssfile, mediatype="all")
+      render_style open_file(find_file(cssfile, CSS)), mediatype
     end
 
-    def sass(sassfile, mediatype)
-      if mediatype.nil? then mediatype = "all" end
-      ["<style type='text/css' media='#{mediatype}' >",
-        Sass::Engine.new(open_file(find_file(sassfile, SASS))).render, 
-        "</style>\n"].join("\n")
+    def sass(sassfile, mediatype="all")
+      render_style Sass::Engine.new(open_file(find_file(sassfile, SASS))).render, mediatype
     end
 
-    def scss(scssfile)
-      ["<style type='text/css'>",
-        Sass::Engine.new(open_file(find_file(scssfile, SCSS)), :syntax => :scss).render, 
-        "</style>\n"].join("\n")
+    def scss(scssfile, mediatype="all")
+      render_style Sass::Engine.new(open_file(find_file(scssfile, SCSS)), :syntax => :scss).render, mediatype
     end
 
     def javascript(jsfile)
@@ -61,6 +56,13 @@ module Sinatra
         text,
         "</script>\n"].join("\n")      
     end
+    
+    def render_style(text, mediatype="all")
+      ["<style type='text/css' media='#{mediatype}' >",
+        text,
+        "</style>\n"].join("\n")      
+    end
+    
     
   
     def find_file(filename, ext)
