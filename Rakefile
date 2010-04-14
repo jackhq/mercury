@@ -11,7 +11,7 @@ begin
     gem.homepage = "http://github.com/jackhq/mercury"
     gem.authors = ["Tom Wilson"]
     gem.add_dependency "sinatra", ">= 1.0.0"
-    gem.add_dependency "haml", ">= 3.0.0.beta.1"
+    gem.add_dependency "haml", ">= 3.0.0.beta.2"
     gem.add_dependency "faker", ">= 0"
     gem.add_dependency "bluecloth", ">= 0"
     gem.files = FileList['lib/**/*']
