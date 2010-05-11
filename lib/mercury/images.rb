@@ -1,5 +1,6 @@
 module Sinatra
   module MercuryImages
+    # register app
     def self.registered(app)
       # stream images
       app.get %r{(gif|jpg|png|jpeg)$} do
@@ -10,6 +11,7 @@ module Sinatra
       end
     end
     
+    # get image
     def get_image_type(image_name)
       if image_name =~ /.gif/
         "image/gif"

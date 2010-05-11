@@ -28,7 +28,8 @@ class Mercury < Sinatra::Application
 
   
 private  
-    
+  
+  # finds and opens view  
   def get_view(filename)
     full_file = File.join(options.views, filename)
     if File.exists?(full_file)
