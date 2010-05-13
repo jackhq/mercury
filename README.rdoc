@@ -1,4 +1,4 @@
-= Mercury
+= Mercury v 0.9.13
 
 === What is it?
 
@@ -13,7 +13,6 @@ It is a command line application that allows you to create and run web sites bui
 * coffee-script
 * markdown
 * textile
-* 960.gs
 * /gif|png|jpg|jpeg/ Image Support
 
 == Why
