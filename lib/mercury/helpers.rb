@@ -1,13 +1,6 @@
 require 'sinatra/base'
 require 'sass'
-
-begin
-  require 'rdiscount'
-  # ^^ that sets a Markdown constant
-rescue LoadError
-  require 'bluecloth'
-  Markdown = BlueCloth
-end
+require 'maruku'
 
 module Sinatra
   module MercuryHelpers
@@ -47,7 +40,7 @@ module Sinatra
 
     # renders markdown files
     def markdown(mdfile)
-      Markdown.new(open_file(find_file(mdfile, MDOWN))).to_html
+      Maruku.new(open_file(find_file(mdfile, MDOWN))).to_html
     end
 
     # renders coffee files
