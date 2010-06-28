@@ -2,8 +2,11 @@ require 'sinatra'
 require 'haml'
 require 'fileutils'
 require 'faker'
-require File.dirname(__FILE__) + '/mercury/helpers'
-require File.dirname(__FILE__) + '/mercury/images'
+
+%w{ helpers images css js }.each do |lib|
+  require File.dirname(__FILE__) + '/mercury/' + lib
+end
+
 require 'coffee_script'
 require 'sass/plugin/rack'
 
@@ -14,12 +17,17 @@ class Mercury < Sinatra::Application
 
   helpers Sinatra::MercuryHelpers
   register Sinatra::MercuryImages
+  register Sinatra::MercuryCss
+  register Sinatra::MercuryJs
+  
   
   
   
   set :root,  FileUtils.pwd.gsub("\n",'')
-  set :public, File.dirname(__FILE__) + '/public'
+  set :public, FileUtils.pwd.gsub("\n",'') + '/wwwroot'
   set :views, FileUtils.pwd.gsub("\n",'') + '/wwwroot'
+  
+  
   
   get '/*' do
     view_file_request = params["splat"][0]  

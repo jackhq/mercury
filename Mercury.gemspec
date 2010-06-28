@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "0.9.15"
+  s.version = "0.10.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
-  s.date = %q{2010-05-27}
+  s.date = %q{2010-06-28}
   s.default_executable = %q{mercury}
   s.description = %q{Hack with haml, sass, jquery and coffee-script!}
   s.email = %q{thing2@jackhq.com}
@@ -21,8 +21,11 @@ Gem::Specification.new do |s|
   s.files = [
     "lib/coffee_script.rb",
      "lib/mercury.rb",
+     "lib/mercury/css.rb",
      "lib/mercury/helpers.rb",
      "lib/mercury/images.rb",
+     "lib/mercury/js.rb",
+     "lib/mercury_config.rb",
      "lib/public/favicon.ico",
      "lib/public/images/bk_gradient.png",
      "lib/public/javascripts/coffee-script.js",
@@ -47,17 +50,25 @@ Gem::Specification.new do |s|
      "lib/public/stylesheets/smoothness/images/ui-icons_cd0a0a_256x240.png",
      "lib/public/stylesheets/smoothness/jquery-ui-1.8.custom.css",
      "lib/public/stylesheets/text.css",
+     "lib/sencha/icon.png",
+     "lib/sencha/index.html",
+     "lib/sencha/javascripts/coffee-script.js",
+     "lib/sencha/javascripts/ext-touch.js",
+     "lib/sencha/phone_startup.png",
+     "lib/sencha/stylesheets/ext-touch.css",
+     "lib/sencha/tablet_startup.png",
      "lib/views/index.haml",
      "lib/views/layout.haml"
   ]
   s.homepage = %q{http://github.com/jackhq/mercury}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{Easy Hacking with Haml, Sass, JQuery, CoffeeScript}
   s.test_files = [
     "spec/lib/mercury/helpers_spec.rb",
      "spec/lib/mercury/images_spec.rb",
+     "spec/lib/mercury_config_spec.rb",
      "spec/mercury_spec.rb",
      "spec/spec_helper.rb"
   ]
@@ -66,7 +77,7 @@ Gem::Specification.new do |s|
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<sinatra>, [">= 1.0.0"])
       s.add_runtime_dependency(%q<haml>, [">= 3.0.0"])
       s.add_runtime_dependency(%q<faker>, [">= 0"])

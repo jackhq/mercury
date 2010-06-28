@@ -1,14 +1,12 @@
 :erb
   <style type="text/css">
+
 :sass
   #header-wrap
-    background: transparent url(/images/bk_gradient.png) repeat-x
     color: white
-  
   #header
     h1
-      margin-left: 15px
-      
+      margin-left: 15px    
   ul#pages
     list-style: none
     li
@@ -19,19 +17,7 @@
 :erb
   </style>
 
-:javascript
-  $(function() {
-    $('#pages').children().mouseover(function(){
-      $(this).css('background-image','url(/images/bk_gradient.png)');
-    });
-    $('#pages').children().mouseout(function(){
-      $(this).css('background-image','none');
-    });
-    $('#pages').children().click(function(){
-      window.location = $(this).attr('data-href');
-    });
-    
-  })
+
 #header-wrap  
   #header.container_16
     %h1 Mercury
@@ -39,20 +25,16 @@
 #wrap.container_16
   .grid_9.prefix_3
     %p{:style => 'font-size:1.4em'}
-      As of 9.2, we changed the web directory to 'wwwroot' instead of 'views', so if you created your project with an older version of Mercury, all you have to do is rename the 'views' folder to 'wwwroot', and everything should work as normal.  Also, check out 
-      %a{:href => 'http://mercury.heroku.com'} http://mercury.heroku.com
-      for more information, and examples.
-      
+      Welcome to Mercury
     %p{:style => 'font-size:1.4em'}
-      Welcome to Mercury, a simple and easy to use gem that makes it super easy to create web-sites, mockups and micro-webapps.  This gem is not to replace any of the excellent ruby frameworks out there.  It is simply a gem to quickly mockup some web sites, web mockups, or a mini prototype apps.
-    
+      Mercury is built on top of the Sinatra Framework and allows you to build web sites and mockups using haml, sass, coffee-script, without having to write any ruby (if you don't want to :).  The purpose of mercury is to enable developers to put up quick prototypes using haml, sass, and coffee-script.  Often times a picture is one of the best ways to get user requirements before you start creating the application.  Some users really benefit from seeing and touching a working prototype to confirm their needs in a specific product.  
     %p{:style => 'font-size:1.4em'}
-      The original purpose was to create a simple way to quickly create wireframes, using haml and sass.  After tweaking the gem we added a bunch of other little features.  You can replace this page, by creating an index.haml file in your views directory.  We will work on providing more documentation soon.  
-    
-    %p{:style => 'font-size:1.4em'}
-      Please send us a tweet and let us know what you think about the project!  
+      Please send us a tweet or email and let us know what you think about the project!  
     :markdown
       [@jackhq](http://twitter.com/jackhq)
-  
+      
+      or
+      
+      [mercury@jackhq.com](mailto:mercury@jackhq.com)
 
 

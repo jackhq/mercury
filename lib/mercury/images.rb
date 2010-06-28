@@ -3,7 +3,7 @@ module Sinatra
     # register app
     def self.registered(app)
       # stream images
-      app.get %r{(gif|jpg|png|jpeg)$} do
+      app.get %r{(.gif|.jpg|.png|.jpeg)$} do
         content_type get_image_type(request.path_info)
         File.open(options.views + request.path_info, 'rb') do |file| 
           file.read
