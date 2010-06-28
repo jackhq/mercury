@@ -69,10 +69,11 @@ module Sinatra
     def find_file(filename, ext)
       Dir.glob(File.join(options.views, "**/*.#{ext}")).select { |extfile| extfile.downcase =~ /\/#{filename.to_s.downcase}.#{ext}$/ }.first
     end
-  
-    def open_file(full_path_and_filename)
-      open(full_path_and_filename,'r') { |file| file.read }  
-    end
+    
+    
+    # def open_file(full_path_and_filename)
+    #   open(full_path_and_filename,'r') { |file| file.read }  
+    # end
   
   end
   

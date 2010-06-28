@@ -2,6 +2,7 @@ require 'sinatra'
 require 'haml'
 require 'fileutils'
 require 'faker'
+require File.dirname(__FILE__) + '/mercury_mixins'
 
 %w{ helpers images css js }.each do |lib|
   require File.dirname(__FILE__) + '/mercury/' + lib
@@ -15,18 +16,17 @@ require 'sass/plugin/rack'
 class Mercury < Sinatra::Application
   use Sass::Plugin::Rack
 
+  include MercuryMixins
+
   helpers Sinatra::MercuryHelpers
   register Sinatra::MercuryImages
   register Sinatra::MercuryCss
   register Sinatra::MercuryJs
   
-  
-  
-  
+    
   set :root,  FileUtils.pwd.gsub("\n",'')
   set :public, FileUtils.pwd.gsub("\n",'') + '/wwwroot'
   set :views, FileUtils.pwd.gsub("\n",'') + '/wwwroot'
-  
   
   
   get '/*' do

@@ -14,6 +14,7 @@ begin
     gem.add_dependency "haml", ">= 3.0.0"
     gem.add_dependency "faker", ">= 0"
     gem.add_dependency "maruku", ">= 0"
+    
     gem.files = FileList['lib/**/*']
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

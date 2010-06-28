@@ -1,25 +1,21 @@
-= Mercury v 0.9.13
+= Mercury 
 
 === What is it?
 
-It is a command line application that allows you to create and run web sites built using haml, sass, jquery, and coffee-script.  It also has support for markdown, textile, and 960 built right in.  Give it a try, it only takes 5 minutes to get up and running.  
+It is a command line application that allows you to create and run web sites built using haml, sass, jquery, and coffee-script.  It also has support for markdown built right in.  Give it a try, it only takes 5 minutes to get up and running.  
 
 === Technology
 
 * haml
 * sass
-* jquery
-* jquery-ui
 * coffee-script
 * markdown
-* textile
-* /gif|png|jpg|jpeg/ Image Support
+
 
 == Why
 
 At Jack Russell Software, we love haml, jquery, etc and needed to create web mockups or wireframes quickly to get user interface feedback during our storyboarding process.  Mercury was the answer, it allows us to work with the same tools we are familar with and focus on getting the user interface right.
 
-See for you self!  Try Mercury, you will be hooked!
 
 Simply type: 
  

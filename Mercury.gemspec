@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mercury}
-  s.version = "1.0.0"
+  s.version = "1.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Wilson"]
@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "lib/mercury/images.rb",
      "lib/mercury/js.rb",
      "lib/mercury_config.rb",
+     "lib/mercury_mixins.rb",
      "lib/public/favicon.ico",
      "lib/public/images/bk_gradient.png",
      "lib/public/javascripts/coffee-script.js",
