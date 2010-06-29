@@ -26,9 +26,12 @@ class MercuryConfig
   end
   
   def apply_stack
+    
     if @stack == SENCHA
       FileUtils.cp_r File.dirname(__FILE__) + '/../lib/sencha/.', FileUtils.pwd + "/#{@project}/wwwroot"
-    else
+    elsif @stack == BLANK
+      # dont do anything
+    else 
       FileUtils.cp_r File.dirname(__FILE__) + '/../lib/public/.', FileUtils.pwd + "/#{@project}/wwwroot"
     end
   end
